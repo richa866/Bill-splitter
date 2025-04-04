@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a0ca3;  
+}
+
+.container{
+    display: flex;
+    border-radius: 1rem;
+    gap: 2rem;
+    margin-top: 130px;
+    width:60%;
+    background-color: #b8c0ff;
+    padding: 1.3rem;
+}
+.head{
+    font-size: 1.6rem;
+    padding-bottom: 0;
+}    
+.entries{
+    display: grid;
+    padding: 2rem;
+    padding-top: 0;
+    gap:2.2rem;
+    width: 50%;
+}
+.money, .noPeople{
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    font-family: "Itim", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.money:focus, .noPeople:focus{
+   border: 2px solid orange
+}
+.nopplBtn{
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+
+.people{
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    width: 60%;
+    background-color: #e0c3fc;
+    color: #4e148c;
+    font-family: "Itim", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.people:hover{
+    background-color:#b8c0ff ;
+    border: 3px solid #6308b8;
+}
+.displayContainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap:0;
+    width: 40%;
+    font-size: 1.5rem;
+    font-family: "Itim", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffd6ff;
+    border-radius: 20%;
+}
+.dispalyPP{
+    display: grid;
+    margin: 0;
+    gap: 0;
+    padding: 1rem;
+    height: 40%;
+}
+
+
+
+
+.splitMoney{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+margin-bottom: 0;
+
+}
+.pp{
+   text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+.split{
+    font-size: 1rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.07rem;
+    font-family: "Itim", serif;
+    font-weight: 590;
+    font-style: normal;
+    color: #03045e;
+}
+.split:hover{
+color: white;
+font-weight: 600;
+    background-color: #b8c0ff;
+    border: 3px solid  #03045e;
+}
+
